@@ -255,15 +255,6 @@ function updateLine(name,property,value){
     name.setAttribute(property.toString(),window.innerHeight*((value)/100).toString());
 }
 
-document.getElementById('crossButton').onclick=function(){
-    //console.log('finish');
-    dsBridge.call("byjus.sendExploreUIEvent", {
 
-        tag: "finish",
-
-        data: ""
-
-    });
-}
 
 
